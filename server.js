@@ -3,7 +3,7 @@ const fs = require('fs');
 const url = require('url');
 const path = require('path');
 
-const PORT = 8081;
+const PORT = 8080;
 const UPLOADS_DIRECTORY = './uploads/';
 
 const server = http.createServer((req, res) => {
